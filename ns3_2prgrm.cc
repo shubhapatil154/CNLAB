@@ -157,29 +157,3 @@ At time 9s client sent 100 bytes to 10.1.2.3 port 10
 At time 9.00223s server received 100 bytes from 10.1.3.2 port 49153
 At time 9.00223s server sent 100 bytes to 10.1.3.2 port 49153
 At time 9.00445s client received 100 bytes from 10.1.2.3 port 10
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	
-
-	
-	
-	
-
-
