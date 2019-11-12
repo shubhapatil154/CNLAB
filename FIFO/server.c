@@ -31,3 +31,15 @@ if ((fd=open(fname,O_RDWR))<0) {
 close(readfd); unlink(FIFO1);
 close(writefd); unlink(FIFO2);
 }
+
+
+
+/******** output and commands***********
+
+bmsce@bmsce-Precision-T1700:~$ cd Documents/
+bmsce@bmsce-Precision-T1700:~/Documents$ cd 1BM18CS419/
+bmsce@bmsce-Precision-T1700:~/Documents/1BM18CS419$ gcc server.c -o server.o
+bmsce@bmsce-Precision-T1700:~/Documents/1BM18CS419$ ./server.o
+Waiting for connection Request..
+Connection Established..
+Client has requested file f1.txt
