@@ -26,3 +26,18 @@ int main()
     close(writefd);
 return 0;
 }
+
+
+/******** output and commands *******************
+
+bmsce@bmsce-Precision-T1700:~$ cd Documents/
+bmsce@bmsce-Precision-T1700:~/Documents$ cd 1BM18CS419/
+bmsce@bmsce-Precision-T1700:~/Documents/1BM18CS419$ gcc client.c -o client.o
+bmsce@bmsce-Precision-T1700:~/Documents/1BM18CS419$ ./client.o
+Trying to Connect to Server..
+Connected..
+Enter the filename to request from server: f1.txt
+Waiting for Server to reply..
+hello
+
+*/
